@@ -78,7 +78,7 @@ echo "GP_SERVICE path: " $GP_SERVICE
 echo "PACKAGE_NAME : " $PACKAGE_NAME
 
 BUILD_NAME="build_$(date +%b_%d_%Y_%I-%M-%S_%p).apk"
-
+mkdir -p builds
 echo "starting build"
 OUTPUT=$(./BuildUnity.sh "$PWD/builds/$BUILD_NAME" "$UNITY_PATH" "$REPO_URL" "$KEYSTORE_PWD" 3>&1)
 if [ $? -eq 0 ]; then
