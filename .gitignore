@@ -1,0 +1,6 @@
+
+*.apk
+gpservice.json
+/vendor/bundle
+build_config.env
+.bundle/config
