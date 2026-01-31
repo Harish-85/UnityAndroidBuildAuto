@@ -6,3 +6,5 @@ build_config.env
 .bundle/config
 /ProjectFiles
 last_commit.txt
+builds/
+LockFile

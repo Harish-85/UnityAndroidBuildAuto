@@ -113,8 +113,8 @@ HandleConfigFile
 echo "Using Unity at: $UNITY_PATH"
 echo "Repo URL: $REPO_URL"
 echo "BRANCH: $BRANCH"
-echo "Dicord URL: $DISCORD_HOOK"
-echo "Keystore pwd: " $KEYSTORE_PWD
+echo "Discord webhook: [REDACTED]"
+echo "Keystore password: [REDACTED]"
 echo "GP_SERVICE path: " $GP_SERVICE
 echo "PACKAGE_NAME : " $PACKAGE_NAME
 
