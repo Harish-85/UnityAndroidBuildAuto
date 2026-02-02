@@ -1,4 +1,4 @@
-#UNITY BUILD AUTOMATION FOR ANDROID
+# UNITY BUILD AUTOMATION FOR ANDROID
 
 This repo lets you automate unity android builds and upload it to google play games' internal file sharing and optionally send a message to discord via a webhook.
 This repo is tested to work in Fedora Linux (should work fine in any distro) and MacOS
